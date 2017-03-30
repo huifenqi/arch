@@ -34,4 +34,4 @@ Accepted
 [2]:	https://superuser.com/questions/303358/why-is-ssh-key-authentication-better-than-password-authentication
 [3]:	https://security.stackexchange.com/questions/69407/why-is-using-an-ssh-key-more-secure-than-using-passwords
 
-[image-1]:	hack-ssh-key.png
+[image-1]:	files/hack-ssh-key.png
