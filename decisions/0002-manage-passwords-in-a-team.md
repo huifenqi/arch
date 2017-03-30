@@ -14,6 +14,7 @@ Proposed
 我们所有的密码都是分散的管理着，每个人都自行对这 20 到 100 个密码进行管理，并且方式各种各样。
 
 当前存在以下问题：
+
 1. 使用容易记但很不安全的密码，例如，`123456`；
 2. 在每一个服务上使用相同的非安全密码；
 3. 当团队成员有变动时，密码没有改变；
@@ -21,6 +22,7 @@ Proposed
 5. 通过邮箱或是微信进行密码分享。
 
 我们需要一个工具管理我们的密码，包括如下功能：
+
 1. 生成复杂密码；
 2. 密码被加密后保存；
 3. 分发方式安全；
@@ -28,6 +30,7 @@ Proposed
 5. 支持团队分组管理。
 
 Refs:
+
 How to Manage Passwords in a Team: [https://medium.com/altcademy/how-to-manage-passwords-in-a-team-3ed010bc3ccf][1]
 
 ## Decision
