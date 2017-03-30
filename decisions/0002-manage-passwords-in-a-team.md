@@ -35,7 +35,7 @@ How to Manage Passwords in a Team: [https://medium.com/altcademy/how-to-manage-
 
 ## Decision
 
-passpack/lastpass
+lastpass(choiced, 有些重但功能齐全且使用人数最多)/passpack(不支持附件)
 
 ## Consequences
 
