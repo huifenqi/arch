@@ -22,6 +22,8 @@ Accepted
 
 从主机市场分析数据（[https://www.digitalocean.com/community/questions/whats-is-better-and-why-linux-centos-or-ubuntu?answer=30514][1]）看，Simple Hosting, VPS, Dedicated & Clouds 这三个领域，centos 占有率均低于 ubuntu。尤其在云市场，centos 只有 ubuntu 的 1/20（[http://thecloudmarket.com/stats#/by\_platform\_definition][2]）。
 
+![][image-1]
+
 更多的对比信息请查看：
 
 * CentOS vs Ubuntu: Which one is better for a server [https://thishosting.rocks/centos-vs-ubuntu-server/][3]
@@ -40,3 +42,5 @@ Accepted
 [2]:	http://thecloudmarket.com/stats#/by_platform_definition
 [3]:	https://thishosting.rocks/centos-vs-ubuntu-server/
 [4]:	https://www.quora.com/What-Linux-server-should-I-go-for-Ubuntu-or-CentOS
+
+[image-1]:	files/centos-vs-ubuntu-in-clouds.png
