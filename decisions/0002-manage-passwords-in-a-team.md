@@ -36,8 +36,12 @@ How to Manage Passwords in a Team: [https://medium.com/altcademy/how-to-manage-
 ## Decision
 
 lastpass(功能繁杂，使用人数最多，费用 1450 USD / 50 users)
-passpack(choiced，功能简单，不支持附件，费用 144 USD / 80 users)
+passpack(choiced，功能简单，不支持附件，费用 144 USD / 80 users)，
 1password(功能简单，使用方式友好，费用 7200 USD / 50 users)
+
+Refs:
+
+PasspackGettingStarted: [https://www.passpack.com/getting-started/PasspackGettingStarted\_Admin\_EN.pdf][2]
 
 ## Consequences
 
@@ -46,3 +50,4 @@ passpack(choiced，功能简单，不支持附件，费用 144 USD / 80 users)
 3. 需要可存储附件（比如，ssh 公私钥）。
 
 [1]:	https://medium.com/altcademy/how-to-manage-passwords-in-a-team-3ed010bc3ccf
+[2]:	https://www.passpack.com/getting-started/PasspackGettingStarted_Admin_EN.pdf
