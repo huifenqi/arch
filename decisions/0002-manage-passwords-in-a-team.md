@@ -35,7 +35,9 @@ How to Manage Passwords in a Team: [https://medium.com/altcademy/how-to-manage-
 
 ## Decision
 
-lastpass(choiced, 有些重但功能齐全且使用人数最多)/passpack(不支持附件)
+lastpass(功能繁杂，使用人数最多，费用 1450 USD / 50 users)
+passpack(choiced，功能简单，不支持附件，费用 144 USD / 80 users)
+1password(功能简单，使用方式友好，费用 7200 USD / 50 users)
 
 ## Consequences
 
