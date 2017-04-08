@@ -11,7 +11,7 @@ Accepted
 当前我们使用的是用户名、密码方式进行服务器登录，存在以下问题
 
 1. 安全性问题，密码面临被破解的风险；
-2. 易用性问题，可以使用第三方软件如，SecureCRT，ZOC7；
+2. 易用性问题，无法使用 config 记录密码，可以使用第三方软件解决，如，SecureCRT，ZOC7；
 3. 无法充分使用 local terminal，如 iTerm2；
 
 ### Refs:
@@ -28,7 +28,7 @@ Accepted
 ## Consequences
 
 1. 团队成员使用新方式需要适应；
-2. key 的管理需要统一（可能需要引入堡垒机）。
+2. key 的管理需要统一（需要引入堡垒机）。
 
 [1]:	https://lwn.net/Articles/369703/
 [2]:	https://superuser.com/questions/303358/why-is-ssh-key-authentication-better-than-password-authentication
