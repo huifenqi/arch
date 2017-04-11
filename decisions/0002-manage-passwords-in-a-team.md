@@ -1,4 +1,4 @@
-# 2. manage passwords in a team
+# 2. Manage passwords in a team
 
 Date: 30/03/2017
 

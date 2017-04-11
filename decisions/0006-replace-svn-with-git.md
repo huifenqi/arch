@@ -1,4 +1,4 @@
-# 6. replace svn with git
+# 6. Replace svn with git
 
 Date: 06/04/2017
 

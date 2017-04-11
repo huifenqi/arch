@@ -1,4 +1,4 @@
-# 8. use bastion host to enhance our server security
+# 8. Use bastion host to enhance our server security
 
 Date: 08/04/2017
 

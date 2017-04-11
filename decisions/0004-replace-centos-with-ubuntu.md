@@ -1,4 +1,4 @@
-# 4. replace centos with ubuntu
+# 4. Replace CentOS with ubuntu
 
 Date: 30/03/2017
 
