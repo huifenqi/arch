@@ -1,4 +1,4 @@
-# 10. Git basics and Github workflow
+# 10. Git basics and style guide
 
 Date: 11/04/2017
 
@@ -8,7 +8,7 @@ Accepted
 
 ## Context
 
-We use git and GitHub in different ways, it’s emergency to teach team members with the git basics and the workflow we will use.
+We use git and GitHub in different ways, it’s emergency to teach team members with the git basics and style guide we will use.
 
 ## Decision
 
@@ -33,17 +33,11 @@ We use git and GitHub in different ways, it’s emergency to teach team members 
 12. show changes: `git diff <previous_commit_hash>`;
 13. others: `git status`, `git branch`, `git tag`, etc.
 
-### Github workflow
-
-There are various workflows and each one has its strengths and weaknesses. Whether a workflow fits your case, depends on the team, the project and your development procedures.
-
-our workflow: [http://123.57.69.21:9000/pages/viewpage.action?pageId=16714206][2]
-
 ### git style guide
 
 #### Branches
 
-* Choose short and descriptive names: [https://github.com/agis-/git-style-guide#branches][3];
+* Choose short and descriptive names: [https://github.com/agis-/git-style-guide#branches][2];
 * Use dashes to separate words.
 
 #### Commits
@@ -56,20 +50,19 @@ our workflow: [http://123.57.69.21:9000/pages/viewpage.action?pageId=16714206][2
 
 ### Refs
 
-* [http://rogerdudler.github.io/git-guide/index.html][4]
-* [https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html][5]
-* [https://github.com/agis-/git-style-guide][6]
+* [http://rogerdudler.github.io/git-guide/index.html][3]
+* [https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html][4]
+* [https://github.com/agis-/git-style-guide][5]
 
 ## Consequences
 
-Consequences here...
+Make sure everyone follow the guide, check the Github feeds often.
 
 [1]:	https://github.com/settings/keys
-[2]:	http://123.57.69.21:9000/pages/viewpage.action?pageId=16714206
-[3]:	https://github.com/agis-/git-style-guide#branches
-[4]:	http://rogerdudler.github.io/git-guide/index.html
-[5]:	https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
-[6]:	https://github.com/agis-/git-style-guide
+[2]:	https://github.com/agis-/git-style-guide#branches
+[3]:	http://rogerdudler.github.io/git-guide/index.html
+[4]:	https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+[5]:	https://github.com/agis-/git-style-guide
 
 [image-1]:	files/file-stages.png
 [image-2]:	files/branches.png
