@@ -16,12 +16,12 @@ Those all come from my short experience, so please read by your own risk.
 10. [Git basics and Github workflow][9];
 11. TBD.
 
-[1]:	0001-record-architecture-decisions.md
-[2]:	0002-manage-passwords-in-a-team.md
-[3]:	0003-use-ssh-key-instead-of-password.md
-[4]:	0004-replace-centos-with-ubuntu.md
-[5]:	0006-replace-svn-with-git.md
-[6]:	0007-use-passpack-to-manage-passwords.md
-[7]:	0008-use-bastion-host-to-enhance-our-server-security.md
-[8]:	0009-make-django-project-with-the-same-structure.md
-[9]:	0010-git-basics-and-github-workflow.md
+[1]:	decisions/0001-record-architecture-decisions.md
+[2]:	decisions/0002-manage-passwords-in-a-team.md
+[3]:	decisions/0003-use-ssh-key-instead-of-password.md
+[4]:	decisions/0004-replace-centos-with-ubuntu.md
+[5]:	decisions/0006-replace-svn-with-git.md
+[6]:	decisions/0007-use-passpack-to-manage-passwords.md
+[7]:	decisions/0008-use-bastion-host-to-enhance-our-server-security.md
+[8]:	decisions/0009-make-django-project-with-the-same-structure.md
+[9]:	decisions/0010-git-basics-and-github-workflow.md
