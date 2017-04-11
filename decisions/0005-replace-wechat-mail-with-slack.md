@@ -1,4 +1,4 @@
-# 5. replace wechat mail with slack
+# 5. Replace wechat mail with slack
 
 Date: 31/03/2017
 

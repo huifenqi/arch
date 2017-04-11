@@ -1,4 +1,4 @@
-# 10. git basics and Github workflow
+# 10. Git basics and Github workflow
 
 Date: 11/04/2017
 

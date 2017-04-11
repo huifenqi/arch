@@ -1,4 +1,4 @@
-# 9. make django project with the same structure
+# 9. Make django project with the same structure
 
 Date: 10/04/2017
 

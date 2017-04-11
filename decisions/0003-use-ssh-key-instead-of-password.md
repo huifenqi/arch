@@ -1,4 +1,4 @@
-# 3. use ssh key instead of password
+# 3. Use ssh key instead of password
 
 Date: 30/03/2017
 
