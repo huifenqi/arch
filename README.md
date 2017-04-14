@@ -15,6 +15,8 @@ Those all come from my short experience, so please read by your own risk.
 9. [Make django project with the same structure][8];
 10. [Git basics and style guide][9];
 11. [Apply Github workflow to our team][10];
+12. [Think about micro service][11];
+13. [The sense of Done][12];
 11. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
@@ -27,3 +29,5 @@ Those all come from my short experience, so please read by your own risk.
 [8]:	decisions/0009-make-django-project-with-the-same-structure.md
 [9]:	decisions/0010-git-basics-and-style-guide.md
 [10]:	decisions/0011-apply-github-workflow-to-our-team.md
+[11]:	decisions/0012-think-about-micro-service.md
+[12]:	decisions/0013-the-sense-of-done.md
