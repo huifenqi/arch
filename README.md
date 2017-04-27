@@ -17,6 +17,14 @@ Those all come from my short experience, so please read by your own risk.
 11. [Apply Github workflow to our team][10];
 12. [Think about micro service][11];
 13. [The sense of Done][12];
+14. How to restart a server;
+15. Case: How to find the root reason of high load;
+16. Post mortem report;
+17. Incident classify and recovery;
+18. Continuous delivery iOS;
+19. Before server request and upgrade: capacity evaluation;
+20. [Log management][13];
+21. [Split redis with business and move redis to aliyun][14];
 11. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
@@ -31,3 +39,5 @@ Those all come from my short experience, so please read by your own risk.
 [10]:	decisions/0011-apply-github-workflow-to-our-team.md
 [11]:	decisions/0012-think-about-micro-service.md
 [12]:	decisions/0013-the-sense-of-done.md
+[13]:	decisions/0020-log-management.md
+[14]:	decisions/0021-split-redis-with-business-and-move-redis-to-aliyun.md
