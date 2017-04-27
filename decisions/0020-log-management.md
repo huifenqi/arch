@@ -52,9 +52,10 @@ Accepted
 
 ## Consequences
 
-创建一个 huifenqi 项目，然后创建各自服务的日志库，如下
-nginx -\> nginx-access, nginx-error
-service1 -\> service1-access, service1-log
+创建一个项目，然后创建各自服务的日志库，如下
+
+* nginx: nginx-access, nginx-error
+* service1: service1-access, service1-log
 
 未来需处理好 Aliyun 子账号与日志的权限关系
 
