@@ -21,10 +21,13 @@ Those all come from my short experience, so please read by your own risk.
 15. Case: How to find the root reason of high load;
 16. Post mortem report;
 17. Incident classify and recovery;
-18. Continuous delivery iOS;
-19. [Server request and upgrade: capacity evaluation][13];
-20. [Log management][14];
-21. [Split redis with business and move redis to aliyun][15];
+18. [Continuous delivery iOS][13];
+19. [Server request and upgrade: capacity evaluation][14];
+20. [Log management][15];
+21. [Split redis with business and move redis to aliyun][16];
+22. Anti DDOS;
+23. [Application performance monitoring][17];
+24. [Real-time error tracking][18];
 11. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
@@ -39,6 +42,9 @@ Those all come from my short experience, so please read by your own risk.
 [10]:	decisions/0011-apply-github-workflow-to-our-team.md
 [11]:	decisions/0012-think-about-micro-service.md
 [12]:	decisions/0013-the-sense-of-done.md
-[13]:	decisions/0019-server-request-and-upgrade-capacity-evaluation.md
-[14]:	decisions/0020-log-management.md
-[15]:	decisions/0021-split-redis-with-business-and-move-redis-to-aliyun.md
+[13]:	decisions/0018-continuous-delivery-ios.md
+[14]:	decisions/0019-server-request-and-upgrade-capacity-evaluation.md
+[15]:	decisions/0020-log-management.md
+[16]:	decisions/0021-split-redis-with-business-and-move-redis-to-aliyun.md
+[17]:	decisions/0023-application-performance-monitoring.md
+[18]:	decisions/0024-real-time-error-tracking.md
