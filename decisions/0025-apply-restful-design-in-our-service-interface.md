@@ -53,7 +53,6 @@ Accepted
 * 单个资源：{field1: value1, …}
 * 资源集合：[{field1: value1, …}]
 * 资源集合（带分页）：
-
 ```json
 {
  "count": 0,
@@ -62,10 +61,8 @@ Accepted
  "results": [{"field1": "value1", …}]
 }
 ```
-
 13. 错误返回格式：
 * 非特定字段错误
-
 ```json 
 {
  "non_field_errors": [
@@ -84,7 +81,6 @@ Accepted
  ]
 }
 ```
-
 14.  使用  swagger  做 API 展示 与调试。
 	![][image-1]
 
@@ -103,4 +99,4 @@ Refs:
 [4]:	http://www.restapitutorial.com/lessons/restquicktips.html
 [5]:	http://www.django-rest-framework.org/
 
-[image-1]:	decisions/files/swagger.png
+[image-1]:	files/swagger.png
