@@ -85,6 +85,9 @@ Accepted
 }
 ```
 
+14.  使用  swagger  做 API 展示 与调试。
+	![][image-1]
+
 ## Consequences
 
 Refs:
@@ -99,3 +102,5 @@ Refs:
 [3]:	http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
 [4]:	http://www.restapitutorial.com/lessons/restquicktips.html
 [5]:	http://www.django-rest-framework.org/
+
+[image-1]:	decisions/files/swagger.png
