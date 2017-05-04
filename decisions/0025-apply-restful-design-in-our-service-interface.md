@@ -59,8 +59,8 @@ Accepted
  "count": 0,
  "next": null,
  "previous": null,
- "results": [{field1: value1, …}]
- }
+ "results": [{"field1": "value1", …}]
+}
 ```
 
 13. 错误返回格式：
@@ -69,19 +69,19 @@ Accepted
 ```json 
 {
  "non_field_errors": [
- "该手机号码未注册！"
+  "该手机号码未注册！"
  ]
- }
+}
 ```
 * 特定字段错误
 ```json
 {
-"phone_number": [
-"该字段不能为空。"
-],
-"address": [
-"该字段不能为空。"
-]
+ "phone_number": [
+  "该字段不能为空。"
+ ],
+ "address": [
+  "该字段不能为空。"
+ ]
 }
 ```
 
