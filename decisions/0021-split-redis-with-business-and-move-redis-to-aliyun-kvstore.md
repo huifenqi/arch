@@ -1,4 +1,4 @@
-# 21. Split redis with business and move redis to aliyun
+# 21. Split redis with business and move redis to aliyun kvstore
 
 Date: 26/04/2017
 

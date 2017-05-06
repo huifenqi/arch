@@ -8,7 +8,7 @@ Those all come from my short experience, so please read by your own risk.
 2. [Manage passwords in a team][2];
 3. [Use ssh key instead of password][3];
 4. [Replace CentOS with ubuntu][4];
-5. Replace wechat mail with slack;
+5. Replace wechat mail with \<del\>slack\</del\>;
 6. [Replace svn with git][5];
 7. [Use PassPack to manage passwords][6];
 8. [Use bastion host to enhance our server security][7];
@@ -24,11 +24,13 @@ Those all come from my short experience, so please read by your own risk.
 18. [Continuous delivery iOS][14];
 19. [Server request and upgrade: capacity evaluation][15];
 20. [Log management][16];
-21. [Split redis with business and move redis to aliyun][17];
-22. Anti DDOS;
-23. [Application performance monitoring][18];
-24. [Real-time error tracking][19];
-11. TBD.
+21. [Split redis with business and move redis to aliyun kvstore][17];
+22. [Anti DDOS and HA][18];
+23. [Application performance monitoring][19];
+24. [Real-time error tracking][20];
+25. [Apply RESTful design in our service interface][21];
+26. [Move files to independent machine and aliyun OSS ][22];
+1. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
 [2]:	decisions/0002-manage-passwords-in-a-team.md
@@ -46,6 +48,9 @@ Those all come from my short experience, so please read by your own risk.
 [14]:	decisions/0018-continuous-delivery-ios.md
 [15]:	decisions/0019-server-request-and-upgrade-capacity-evaluation.md
 [16]:	decisions/0020-log-management.md
-[17]:	decisions/0021-split-redis-with-business-and-move-redis-to-aliyun.md
-[18]:	decisions/0023-application-performance-monitoring.md
-[19]:	decisions/0024-real-time-error-tracking.md
+[17]:	decisions/0021-split-redis-with-business-and-move-redis-to-aliyun-kvstore.md
+[18]:	decisions/0022-anti-ddos-and-ha.md
+[19]:	decisions/0023-application-performance-monitoring.md
+[20]:	decisions/0024-real-time-error-tracking.md
+[21]:	decisions/0025-apply-restful-design-in-our-service-interface.md
+[22]:	decisions/0026-move-files-to-independent-machine-and-aliyun-oss.md
