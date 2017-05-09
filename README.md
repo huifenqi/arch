@@ -27,7 +27,7 @@ Those all come from my short experience, so please read by your own risk.
 21. [Split redis with business and move redis to aliyun kvstore][17];
 22. [Anti DDOS and HA][18];
 23. [Application performance monitoring][19];
-24. [Real-time error tracking][20];
+24. [Exception and realtime error tracking][20];
 25. [Apply RESTful design in our service interface][21];
 26. [Move files to independent machine and aliyun OSS ][22];
 1. TBD.
@@ -51,6 +51,6 @@ Those all come from my short experience, so please read by your own risk.
 [17]:	decisions/0021-split-redis-with-business-and-move-redis-to-aliyun-kvstore.md
 [18]:	decisions/0022-anti-ddos-and-ha.md
 [19]:	decisions/0023-application-performance-monitoring.md
-[20]:	decisions/0024-real-time-error-tracking.md
+[20]:	decisions/0024-exception-and-realtime-error-tracking.md
 [21]:	decisions/0025-apply-restful-design-in-our-service-interface.md
 [22]:	decisions/0026-move-files-to-independent-machine-and-aliyun-oss.md
