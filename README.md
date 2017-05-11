@@ -30,6 +30,7 @@ Those all come from my short experience, so please read by your own risk.
 24. [Exception and realtime error tracking][20];
 25. [Apply RESTful design in our service interface][21];
 26. [Move files to independent machine and aliyun OSS ][22];
+27. [Apply message queue in our system][23];
 1. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
@@ -54,3 +55,4 @@ Those all come from my short experience, so please read by your own risk.
 [20]:	decisions/0024-exception-and-realtime-error-tracking.md
 [21]:	decisions/0025-apply-restful-design-in-our-service-interface.md
 [22]:	decisions/0026-move-files-to-independent-machine-and-aliyun-oss.md
+[23]:	decisions/0027-apply-message-queue-in-our-system.md
