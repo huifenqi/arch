@@ -26,6 +26,12 @@ Accepted
 
 Refs:
 
-* 防 DDOS 攻击 [http://baike.baidu.com/item/%E9%98%B2DDOS%E6%94%BB%E5%87%BB][1]
+* 防 DDOS 攻击 [http://baike.baidu.com/item/防DDOS攻击][1]
+* Denial of Service Attack Mitigation on AWS [https://aws.amazon.com/cn/answers/networking/aws-ddos-attack-mitigation/][2]
+* How to Help Prepare for DDoS Attacks by Reducing Your Attack Surface [https://aws.amazon.com/cn/blogs/security/how-to-help-prepare-for-ddos-attacks-by-reducing-your-attack-surface/][3]
+* Comparing Load Balancing Options: Nginx vs. HAProxy vs. AWS ELB [http://www.mervine.net/comparing-load-balancing][4]
 
 [1]:	http://baike.baidu.com/item/%E9%98%B2DDOS%E6%94%BB%E5%87%BB
+[2]:	https://aws.amazon.com/cn/answers/networking/aws-ddos-attack-mitigation/
+[3]:	https://aws.amazon.com/cn/blogs/security/how-to-help-prepare-for-ddos-attacks-by-reducing-your-attack-surface/
+[4]:	http://www.mervine.net/comparing-load-balancing
