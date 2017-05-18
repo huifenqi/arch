@@ -29,7 +29,11 @@ Accepted
 
 ![][image-2]
 
-最重要的是这两个 hosts 可以通过同时打开各自开关将其合并。
+可以使用远程集中式管理的 hosts
+
+![][image-3]
+
+最重要的是这些 hosts 可以通过同时打开各自开关将其合并使用。
 
 2. 方案二：使用路由器
 	* 只需切换不同的路由器即可进行不同环境的测试；
@@ -49,3 +53,4 @@ SwitchHosts Github: [https://github.com/oldj/SwitchHosts][2]
 
 [image-1]:	files/switchhosts.png
 [image-2]:	files/switchhosts2.png
+[image-3]:	files/remote-hosts.png
