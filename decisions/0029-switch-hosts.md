@@ -15,7 +15,11 @@ Accepted
 
 ## Decision
 
-1. 方案一：使用 SwitchHosts（choiced）
+1. 方案一：使用 SwitchHosts（Chosen）
+	* 可快速切换 hosts；
+	* 支持集中式的 hosts 管理（在线）；
+	* 支持多 hosts 合并；
+	* 支持多客户端。
 
 主界面如下，默认会将旧的 hosts 文件保存为 backup
 
@@ -26,11 +30,6 @@ Accepted
 ![][image-2]
 
 最重要的是这两个 hosts 可以通过同时打开各自开关将其合并。
-
-* 可快速切换 hosts；
-	* 支持集中式的 hosts 管理（在线）；
-	* 支持多 hosts 合并；
-	* 支持多客户端。
 
 2. 方案二：使用路由器
 	* 只需切换不同的路由器即可进行不同环境的测试；
