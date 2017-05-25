@@ -48,7 +48,7 @@ Refs:
 
 SwitchHosts Github: [https://github.com/oldj/SwitchHosts][2]
 
-[1]:	https://pan.baidu.com/share/link?shareid=150951&uk=3607385901#list/path=%2Fshare%2FSwitchHosts!&parentPath=%2Fshare
+[1]:	https://pan.baidu.com/share/link?shareid=150951&uk=3607385901#list/path=/share/SwitchHosts!&parentPath=/share
 [2]:	https://github.com/oldj/SwitchHosts
 
 [image-1]:	files/switchhosts.png
