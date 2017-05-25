@@ -33,6 +33,9 @@ Those all come from my short experience, so please read by your own risk.
 27. [Apply message queue in our system][23];
 28. What should we do when we setup a new server;
 29. [Switch hosts][24];
+30. [Capacity evaluation - Storage][25];
+31. [Capacity evaluation - Memory][26];
+32. [HA for TCP long connection][27];
 1. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
@@ -59,3 +62,6 @@ Those all come from my short experience, so please read by your own risk.
 [22]:	decisions/0026-move-files-to-independent-machine-and-aliyun-oss.md
 [23]:	decisions/0027-apply-message-queue-in-our-system.md
 [24]:	decisions/0029-switch-hosts.md
+[25]:	decisions/0030-capacity-evaluation-storage.md
+[26]:	decisions/0031-capacity-evaluation-memory.md
+[27]:	decisions/0032-ha-for-tcp-long-connection.md
