@@ -36,6 +36,8 @@ Those all come from my short experience, so please read by your own risk.
 30. [Capacity evaluation - Storage][25];
 31. [Capacity evaluation - Memory][26];
 32. [HA for TCP long connection][27];
+33. [Capacity evaluation - MySQL][28];
+34. [DNS notes][29];
 1. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
@@ -65,3 +67,5 @@ Those all come from my short experience, so please read by your own risk.
 [25]:	decisions/0030-capacity-evaluation-storage.md
 [26]:	decisions/0031-capacity-evaluation-memory.md
 [27]:	decisions/0032-ha-for-tcp-long-connection.md
+[28]:	decisions/0033-capacity-evaluation-mysql.md
+[29]:	decisions/0034-dns-notes.md
