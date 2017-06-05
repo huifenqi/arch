@@ -62,7 +62,9 @@ Refs:
 * 什么影响了MySQL性能 [http://blog.csdn.net/u011118321/article/details/54694262][1]
 * 哪些因素影响了数据库性能 [http://blog.csdn.net/u011118321/article/details/54692454][2]
 * Aliyun RDS 产品概述 [https://help.aliyun.com/document\_detail/26092.html][3]
+* 使用RDS不得不知的注意事项 [https://help.aliyun.com/knowledge\_detail/41872.html][4]
 
 [1]:	http://blog.csdn.net/u011118321/article/details/54694262
 [2]:	http://blog.csdn.net/u011118321/article/details/54692454
 [3]:	https://help.aliyun.com/document_detail/26092.html
+[4]:	https://help.aliyun.com/knowledge_detail/41872.html
