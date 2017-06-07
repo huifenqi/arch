@@ -49,6 +49,10 @@ Accepted
 	    }
 	}
 * 使用简单，使用方配置本机 hosts 即可，为对方域名和代理 IP 映射。 
+4. iptables
+	* 类似局域网共享上网；
+	* 对 iptables 配置有要求；
+	* 目标域名对应的 ip 地址改变，需要更新配置。
 
 ## Consequences
 

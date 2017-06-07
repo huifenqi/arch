@@ -40,6 +40,7 @@ Those all come from my short experience, so please read by your own risk.
 34. [DNS notes][29];
 35. [Disaster recovery][30];
 36. [HA for MySQL][31];
+37. [Use proxy for white list][32];
 1. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
@@ -73,3 +74,4 @@ Those all come from my short experience, so please read by your own risk.
 [29]:	decisions/0034-dns-notes.md
 [30]:	decisions/0035-disaster-recovery.md
 [31]:	decisions/0036-ha-for-mysql.md
+[32]:	decisions/0037-use-proxy-for-white-list.md
