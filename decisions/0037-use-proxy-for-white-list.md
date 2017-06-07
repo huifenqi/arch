@@ -26,30 +26,33 @@ Accepted
 
 ![][image-2]
 
-1. 每次服务器更换，再次报备比较麻烦（如上，PASS）;
-2. 使用正向代理；
+方案：
+
+1. 使用正向代理；
 	* 这个场景最容易想到的方案，使用起来直观，易懂；
 	* 需要每个客户端进行配置，或是在应用中对单个请求做代理配置；
 	* 需要维护一个高可用的代理服务，并备案此代理服务器。
-3. 使用反向代理。
+2. 使用反向代理。
 	* 在我们的服务器上做对方服务的反向代理（听起来有点绕，不直观）
 	* 维护简单，就像是我们用 nginx/slb 为对方做了个负载均衡，但配置稍有不同；
-	server {
-	
-	    server_name {{ proxy_info.server_name }};
-	    listen {{ proxy_info.ssl_listen }};
-	
-	    location / {
-	        proxy_pass_header Server;
-	        proxy_pass {{ proxy_info.proxy_url }};
-	        proxy_redirect off;
-	        proxy_set_header X-Real-IP $remote_addr;
-	        proxy_set_header X-Scheme $scheme;
-	        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-	    }
-	}
+```json
+server {
+
+	 server_name {{ proxy_info.server_name }};
+	 listen {{ proxy_info.ssl_listen }};
+
+	 location / {
+		 proxy_pass_header Server;
+		 proxy_pass {{ proxy_info.proxy_url }};
+		 proxy_redirect off;
+		 proxy_set_header X-Real-IP $remote_addr;
+		 proxy_set_header X-Scheme $scheme;
+		 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	 }
+}
+
 * 使用简单，使用方配置本机 hosts 即可，为对方域名和代理 IP 映射。 
-4. iptables
+3. iptables
 	* 类似局域网共享上网；
 	* 对 iptables 配置有要求；
 	* 目标域名对应的 ip 地址改变，需要更新配置。
