@@ -60,9 +60,11 @@ Refs:
 
 1. 云服务器 ECS Linux 系统通过 Squid 配置实现代理上网 [https://help.aliyun.com/knowledge\_detail/41342.html][1]
 2. 正向代理与反向代理的区别 [http://www.jianshu.com/p/208c02c9dd1d][2]
+3. 设置 iptables 使用linux做代理服务器 [https://www.l68.net/493.html][3]
 
 [1]:	https://help.aliyun.com/knowledge_detail/41342.html
 [2]:	http://www.jianshu.com/p/208c02c9dd1d
+[3]:	https://www.l68.net/493.html
 
 [image-1]:	files/proxy.jpg
 [image-2]:	files/reverse-proxy.jpg
