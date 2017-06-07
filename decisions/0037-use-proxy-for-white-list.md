@@ -50,7 +50,7 @@ server {
 		 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 	 }
 }
-
+```
 * 使用简单，使用方配置本机 hosts 即可，为对方域名和代理 IP 映射。 
 3. iptables
 	* 类似局域网共享上网；
