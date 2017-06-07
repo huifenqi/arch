@@ -63,8 +63,10 @@ Refs:
 * 哪些因素影响了数据库性能 [http://blog.csdn.net/u011118321/article/details/54692454][2]
 * Aliyun RDS 产品概述 [https://help.aliyun.com/document\_detail/26092.html][3]
 * 使用RDS不得不知的注意事项 [https://help.aliyun.com/knowledge\_detail/41872.html][4]
+* 阿里云RDS上的一些概念性记录 [http://www.cnblogs.com/olinux/p/5563584.html][5]
 
 [1]:	http://blog.csdn.net/u011118321/article/details/54694262
 [2]:	http://blog.csdn.net/u011118321/article/details/54692454
 [3]:	https://help.aliyun.com/document_detail/26092.html
 [4]:	https://help.aliyun.com/knowledge_detail/41872.html
+[5]:	http://www.cnblogs.com/olinux/p/5563584.html
