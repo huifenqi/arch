@@ -33,6 +33,8 @@ Refs:
 
 * MySQL upgrade from MySQL 5.1 to MySQL 5.5 [http://www.ineedwebhosting.co.uk/blog/mysql-upgrade-from-mysql-5-1-to-mysql-5-5/][1]
 * Mysql时间字段格式如何选择，TIMESTAMP，DATETIME，INT？[https://segmentfault.com/q/1010000000121702][2]
+* Changes Affecting Upgrades to MySQL 5.5 [https://dev.mysql.com/doc/refman/5.5/en/upgrading-from-previous-series.html][3]
 
 [1]:	http://www.ineedwebhosting.co.uk/blog/mysql-upgrade-from-mysql-5-1-to-mysql-5-5/
 [2]:	https://segmentfault.com/q/1010000000121702
+[3]:	https://dev.mysql.com/doc/refman/5.5/en/upgrading-from-previous-series.html
