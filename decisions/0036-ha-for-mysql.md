@@ -8,7 +8,7 @@ Proposed
 
 ## Context
 
-1. 数据库版本 5.1，太久，性能，安全，主从复制都有影响；
+1. 数据库版本 5.1，太旧，性能，安全，主从复制都存在问题；
 2. 数据库部署在 ECS 上，但磁盘使用的是普通云盘，IOPS 已到阈值（优先级最高）；
 3. 数据库一主两从，但无高可用；
 4. 业务端使用 IP 连接主数据库。
@@ -27,14 +27,46 @@ Proposed
 1. 按业务分数据库分别迁移；
 2. 所有迁移先走测试数据库，由 QA 做完整的测试。
 
+ECS self built MySQL 5.1 to RDS 5.5 with DTS 迁移流程：
+
+1. 在 RDS 中创建原 MySQL 数据库对应的账号(各个项目账号独立)；
+2. 更新白名单：添加项目所部署的服务器；
+3. 明确数据规模，对同步时间做个预期；
+4. 同步（全量 or 增量），明确无延迟状态；
+5. 更新数据库连接配置文件；
+6. 明确无延迟状态，停服；
+7. 确定数据量一致（由预先写好的脚本判断）(1min)；
+8. 关闭迁移服务(10s)；
+9. 重启服务器（10s）。
+
+6 至 9 步决定我们的停服时间。
+
+鉴于我们使用从库作为迁移的数据源，需更新如下配置：
+
+* log-slave-updates=1
+* binlog-format=row
+
 ## Consequences
+
+同步过程中出现如下问题，请周知：
+
+1. 判断脚本出问题，未准备好脚步命令；
+2. 终端出问题，更改命令麻烦；
+3. 配置信息直接在生产环境更改，应走 github 流程；
+4. 停服那步影响其他业务。
 
 Refs:
 
 * MySQL upgrade from MySQL 5.1 to MySQL 5.5 [http://www.ineedwebhosting.co.uk/blog/mysql-upgrade-from-mysql-5-1-to-mysql-5-5/][1]
 * Mysql时间字段格式如何选择，TIMESTAMP，DATETIME，INT？[https://segmentfault.com/q/1010000000121702][2]
 * Changes Affecting Upgrades to MySQL 5.5 [https://dev.mysql.com/doc/refman/5.5/en/upgrading-from-previous-series.html][3]
+* Aliyun RDS 访问控制 [https://help.aliyun.com/document\_detail/53617.html][4]
+* Mysql log\_slave\_updates 参数 [http://www.cnblogs.com/zejin2008/p/4656251.html][5]
+* Mysql数据库主从心得整理 [http://blog.sae.sina.com.cn/archives/4666][6]
 
 [1]:	http://www.ineedwebhosting.co.uk/blog/mysql-upgrade-from-mysql-5-1-to-mysql-5-5/
 [2]:	https://segmentfault.com/q/1010000000121702
 [3]:	https://dev.mysql.com/doc/refman/5.5/en/upgrading-from-previous-series.html
+[4]:	https://help.aliyun.com/document_detail/53617.html
+[5]:	http://www.cnblogs.com/zejin2008/p/4656251.html
+[6]:	http://blog.sae.sina.com.cn/archives/4666

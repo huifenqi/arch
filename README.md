@@ -46,6 +46,10 @@ Those all come from my short experience, so please read by your own risk.
 35. [Disaster recovery][31];
 36. [HA for MySQL][32];
 37. [Use proxy for white list][33];
+38. code review;
+39. Agile;
+40. Knowledge sharing;
+41. Organize meet as Company;
 1. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
