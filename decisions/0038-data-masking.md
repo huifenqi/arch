@@ -44,14 +44,14 @@ Accepted
 
 Refs:
 
-* 大数据隐私保护技术之脱敏技术探究 [http://www.freebuf.com/articles/database/120040.html][1]
-* [动态数据脱敏最佳实践.pdf][2]
-* 美团数据仓库-数据脱敏 [http://tech.meituan.com/data-mask.html][3]
-* 大数据与数据脱敏 [https://zhuanlan.zhihu.com/p/20824603][4]
-* 加解密详解 [http://www.jianshu.com/p/b3be35c1d424][5]
+* [动态数据脱敏最佳实践.pdf][1]
+* 美团数据仓库-数据脱敏 [http://tech.meituan.com/data-mask.html][2]
+* 大数据与数据脱敏 [https://zhuanlan.zhihu.com/p/20824603][3]
+* 加解密详解 [http://www.jianshu.com/p/b3be35c1d424][4]
+* 大数据隐私保护技术之脱敏技术探究 [http://www.freebuf.com/articles/database/120040.html][5]
 
-[1]:	http://www.freebuf.com/articles/database/120040.html
-[2]:	files/%E5%8A%A8%E6%80%81%E6%95%B0%E6%8D%AE%E8%84%B1%E6%95%8F%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.pdf
-[3]:	http://tech.meituan.com/data-mask.html
-[4]:	https://zhuanlan.zhihu.com/p/20824603
-[5]:	http://www.jianshu.com/p/b3be35c1d424
+[1]:	files/%E5%8A%A8%E6%80%81%E6%95%B0%E6%8D%AE%E8%84%B1%E6%95%8F%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.pdf
+[2]:	http://tech.meituan.com/data-mask.html
+[3]:	https://zhuanlan.zhihu.com/p/20824603
+[4]:	http://www.jianshu.com/p/b3be35c1d424
+[5]:	http://www.freebuf.com/articles/database/120040.html
