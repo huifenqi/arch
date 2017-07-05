@@ -47,8 +47,9 @@ Those all come from my short experience, so please read by your own risk.
 36. [HA for MySQL][32];
 37. [Use proxy for white list][33];
 38. [Data masking][34];
-39. code review;
-39. Agile;
+39. [Key Management][35];
+40. [Agile - Daily standup meeting][36];
+40. code review;
 40. Knowledge sharing;
 41. Organize meetup as Company;
 1. TBD.
@@ -87,3 +88,5 @@ Those all come from my short experience, so please read by your own risk.
 [32]:	decisions/0036-ha-for-mysql.md
 [33]:	decisions/0037-use-proxy-for-white-list.md
 [34]:	decisions/0038-data-masking.md
+[35]:	decisions/0039-key-management.md
+[36]:	decisions/0040-agile-daily-standup-meeting.md

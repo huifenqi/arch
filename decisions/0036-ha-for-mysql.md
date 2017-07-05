@@ -64,6 +64,7 @@ Refs:
 * Aliyun RDS 访问控制 [https://help.aliyun.com/document\_detail/53617.html][4]
 * Mysql log\_slave\_updates 参数 [http://www.cnblogs.com/zejin2008/p/4656251.html][5]
 * Mysql数据库主从心得整理 [http://blog.sae.sina.com.cn/archives/4666][6]
+* 即使删了全库，保证半小时恢复: [http://mp.weixin.qq.com/s?\_\_biz=MjM5ODYxMDA5OQ==&mid=2651959694&idx=1&sn=4ac53b797fca64229901373e793f860a][7]
 
 [1]:	http://www.ineedwebhosting.co.uk/blog/mysql-upgrade-from-mysql-5-1-to-mysql-5-5/
 [2]:	https://segmentfault.com/q/1010000000121702
@@ -71,3 +72,4 @@ Refs:
 [4]:	https://help.aliyun.com/document_detail/53617.html
 [5]:	http://www.cnblogs.com/zejin2008/p/4656251.html
 [6]:	http://blog.sae.sina.com.cn/archives/4666
+[7]:	http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959694&idx=1&sn=4ac53b797fca64229901373e793f860a
