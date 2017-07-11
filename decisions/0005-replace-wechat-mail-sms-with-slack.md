@@ -4,7 +4,7 @@ Date: 31/03/2017
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
@@ -14,7 +14,7 @@ Proposed
 
 ## Decision
 
-Slack 支持的功能
+### Slack 支持的功能
 
 1. **公开与私有的聊天组，聊天组可随时加入或退出**；
 2. **消息支持表情回复**；
@@ -25,7 +25,7 @@ Slack 支持的功能
 7. 多种程序代码支持高亮；
 8. **强大的第三方集成，将所有消息、通知汇聚在一处**，例如，Trello，Github，NewRelic, Sentry，Jenkins 等
 
-研发部聊天组设计
+### 研发部聊天组设计
 
 1. CI - 用于接收测试结果，测试覆盖率，PR 等信息，也用于发起测试等；
 2. Newrelic - 用于接收报警等信息；
@@ -37,7 +37,34 @@ Slack 支持的功能
 8. Leads - 私密，用于所有研发 leader 进行沟通；
 9. Frontend, UI, Mobile, Devops, QA etc
 
+我们用了如下软件：
+
+* Sentry
+* Newrelic
+* Redmine
+* Teambition
+* Confluence
+* Github
+* Bugly
+* FIR.im
+* Jenkins
+* etc
+
+Slack vs BearyChat:
+
+* Slack 优缺点：
+	* 鼻祖
+	* 几乎所有常用软件(国外)都有集成
+	* 功能完善健壮，公司可信
+	* 网络不稳定
+	* 国内应用集成一般（Teambiton, 监控宝等）
+* BearChat 优缺点：
+	* 基本完成了 Slack 的功能
+	* 数据的隐私无法保证
+	* 服务的可用性无法保证
+
+最终，我们给国产软件(服务)一个机会。
+
 ## Consequences
 
-1. 大家已习惯使用 Wechat，引入一个新的沟通平台有学习成本；
-2. 担心 Slack 的稳定性，国内可以考虑 BearyChat。
+* 大家已习惯使用 Wechat，引入一个新的沟通平台有学习成本。
