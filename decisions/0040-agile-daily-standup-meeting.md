@@ -4,7 +4,7 @@ Date: 2017-06-16
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
@@ -37,6 +37,8 @@ We change scrum master every two week to make sure all team members understand t
 * What will do today.
 
 ## Consequences
+
+Everyone in the team will know each other better.
 
 Refs:
 
