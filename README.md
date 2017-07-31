@@ -49,6 +49,8 @@ Those all come from my short experience, so please read by your own risk.
 38. [Data masking][34];
 39. [Key Management][35];
 40. [Agile - Daily standup meeting][36];
+41. [The summary of MySQL to RDS][37];
+42. [Agile - Retrospective meeting][38];
 40. code review;
 40. Knowledge sharing;
 41. Organize meetup as Company;
@@ -90,3 +92,5 @@ Those all come from my short experience, so please read by your own risk.
 [34]:	decisions/0038-data-masking.md
 [35]:	decisions/0039-key-management.md
 [36]:	decisions/0040-agile-daily-standup-meeting.md
+[37]:	decisions/0041-the-summary-of-mysql-to-rds.md
+[38]:	decisions/0042-agile-retrospective-meeting.md

@@ -23,6 +23,8 @@ Take some time to plan your day and decide what you're going to accomplish today
 
 Scrum master should pay more attention to the status of each card, encourage team members to deploy in time.
 
+We change scrum master every two week to make sure all team members understand the details as an owner.
+
 ### Keynotes
 
 * Safe time - make sure everyone free that time;
