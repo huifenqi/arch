@@ -13,7 +13,7 @@ Those all come from my short experience, so please read by your own risk.
 2. [Manage passwords in a team][2];
 3. [Use ssh key instead of password][3];
 4. [Replace CentOS with ubuntu][4];
-5. [Replace wechat mail sms with <del>slack</del>][5];
+5. [Replace wechat mail sms with <del>BearyChat</del> Slack][5];
 6. [Replace svn with git][6];
 7. [Use PassPack to manage passwords][7];
 8. [Use bastion host to enhance our server security][8];
