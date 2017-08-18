@@ -52,7 +52,7 @@ Refs:
 [1]:	https://help.aliyun.com/document_detail/27414.html
 [2]:	https://help.aliyun.com/document_detail/34483.html
 
-[image-1]:	decisions/files/mns-topic.gif
-[image-2]:	decisions/files/mns-queue.jpg
-[image-3]:	decisions/files/pub-sub-with-mns.png
-[image-4]:	decisions/files/message-filter.png
+[image-1]:	files/mns-topic.gif
+[image-2]:	files/mns-queue.jpg
+[image-3]:	files/pub-sub-with-mns.png
+[image-4]:	files/message-filter.png
