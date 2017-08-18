@@ -51,6 +51,7 @@ Those all come from my short experience, so please read by your own risk.
 40. [Agile - Daily standup meeting][36];
 41. [The summary of MySQL to RDS][37];
 42. [Agile - Retrospective meeting][38];
+43. [Apply message queue in our system with message filter][39];
 40. code review;
 40. Knowledge sharing;
 41. Organize meetup as Company;
@@ -94,3 +95,4 @@ Those all come from my short experience, so please read by your own risk.
 [36]:	decisions/0040-agile-daily-standup-meeting.md
 [37]:	decisions/0041-the-summary-of-mysql-to-rds.md
 [38]:	decisions/0042-agile-retrospective-meeting.md
+[39]:	decisions/0043-apply-message-queue-in-our-system-with-message-filter.md

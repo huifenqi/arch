@@ -1,0 +1,58 @@
+# 43. Apply message queue in our system with message filter
+
+Date: 2017-08-18
+
+## Status
+
+Accepted
+
+## Context
+
+最近需要实现这样的场景，我们的合同状态有 10 多种，每种状态的改变来自 5 个地方，每种状态的处理也来自 5 个地方，处理者需要处理的状态并不相同；
+
+当前实现方案是：
+
+1. 定时任务，定时处理状态为 X 的合同(处理不及时)；
+2. 使用回调，状态更新时回调至处理者处(扩展不方便)；
+
+## Decision
+
+1. 消息服务(MNS) 主题模型
+	![][image-1]
+	* 可订阅，并且可以通过 Tag 进行消息过滤；
+	* 只支持推送模式，每个消费者需要创建回调接口；
+	* 只支持外网地址推送，对内部服务来说，网络耗时太高。
+2. 消息服务(MNS) 队列模型
+	![][image-2]
+	* 根据消费者创建队列，几个消费者就创建几个队列；
+	* 生产者根据消费者所需向其队列发送消息，即生产者需要发送相同消息至多个队列；
+	* 每增加一个消费者，都需更新所有对应生产者的代码，维护性太低。
+3. 消息服务(MNS) 主题+队列模型
+	![][image-3]
+	* 根据消费者创建队列，几个消费者就创建几个队列；
+	* 生产着只需向主题队列发送消息，消费者队列订阅所有主题队列的消息；
+	* 消费者需要接收所有消息，并在业务逻辑中过滤出自己需要处理的消息。
+4. 消息队列(ONS) MQ
+	![][image-4]
+	* 总共只需一个 topic 队列，各个消费者通过 Tag 进行过滤；
+	* 完美支持我们的使用场景；
+	* 不提供 Python SDK。
+
+## Consequences
+
+* 方案 1，2 不用考虑；
+* 使用方案 3，所有消费者需要处理所有的消息；
+* 使用方案 4，需先实现其 SDK。
+
+Refs:
+
+* 消息服务 [https://help.aliyun.com/document\_detail/27414.html][1]
+* 广播拉取消息模型 [https://help.aliyun.com/document\_detail/34483.html][2]
+
+[1]:	https://help.aliyun.com/document_detail/27414.html
+[2]:	https://help.aliyun.com/document_detail/34483.html
+
+[image-1]:	decisions/files/mns-topic.gif
+[image-2]:	decisions/files/mns-queue.jpg
+[image-3]:	decisions/files/pub-sub-with-mns.png
+[image-4]:	decisions/files/message-filter.png
