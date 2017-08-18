@@ -52,6 +52,10 @@ Accepted
 * 使用方案 3，所有消费者需要处理所有的消息；
 * 使用方案 4，需先实现其 SDK。
 
+![][image-5]
+
+官方不建议用方案 4，我们尝试调试也不顺畅，所以决定使用方案 3。
+
 Refs:
 
 * 消息服务 [https://help.aliyun.com/document\_detail/27414.html][1]
@@ -64,3 +68,4 @@ Refs:
 [image-2]:	files/mns-queue.jpg
 [image-3]:	files/pub-sub-with-mns.png
 [image-4]:	files/message-filter.png
+[image-5]:	files/ons-mq-from-ali-workorder.png
