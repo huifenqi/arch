@@ -35,7 +35,7 @@ Those all come from my short experience, so please read by your own risk.
 24. [Exception and realtime error tracking][21];
 25. [Apply RESTful design in our service interface][22];
 26. [Move files to independent machine and aliyun OSS ][23];
-27. [Apply message queue in our system][24];
+27. [Message queue][24];
 28. What should we do when we setup a new server;
 29. [Switch hosts][25];
 30. [Capacity evaluation - Storage][26];
@@ -51,7 +51,7 @@ Those all come from my short experience, so please read by your own risk.
 40. [Agile - Daily standup meeting][36];
 41. [The summary of MySQL to RDS][37];
 42. [Agile - Retrospective meeting][38];
-43. [Apply message queue in our system with message filter][39];
+43. [Message queue with filter][39];
 40. code review;
 40. Knowledge sharing;
 41. Organize meetup as Company;
@@ -80,7 +80,7 @@ Those all come from my short experience, so please read by your own risk.
 [21]:	decisions/0024-exception-and-realtime-error-tracking.md
 [22]:	decisions/0025-apply-restful-design-in-our-service-interface.md
 [23]:	decisions/0026-move-files-to-independent-machine-and-aliyun-oss.md
-[24]:	decisions/0027-apply-message-queue-in-our-system.md
+[24]:	decisions/0027-message-queue.md
 [25]:	decisions/0029-switch-hosts.md
 [26]:	decisions/0030-capacity-evaluation-storage.md
 [27]:	decisions/0031-capacity-evaluation-memory.md
@@ -95,4 +95,4 @@ Those all come from my short experience, so please read by your own risk.
 [36]:	decisions/0040-agile-daily-standup-meeting.md
 [37]:	decisions/0041-the-summary-of-mysql-to-rds.md
 [38]:	decisions/0042-agile-retrospective-meeting.md
-[39]:	decisions/0043-apply-message-queue-in-our-system-with-message-filter.md
+[39]:	decisions/0043-message-queue-with-filter.md
