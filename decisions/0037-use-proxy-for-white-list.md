@@ -1,4 +1,4 @@
-# 37. Use proxy for white list
+# 37. 通过代理解决白名单问题
 
 Date: 2017-06-07
 
@@ -38,21 +38,21 @@ Accepted
 ```json
 server {
 
-	 server_name {{ proxy_info.server_name }};
-	 listen {{ proxy_info.ssl_listen }};
+     server_name {{ proxy_info.server_name }};
+     listen {{ proxy_info.ssl_listen }};
 
-	 location / {
-		 proxy_pass_header Server;
-		 proxy_pass {{ proxy_info.proxy_url }};
-		 proxy_redirect off;
-		 proxy_set_header X-Real-IP $remote_addr;
-		 proxy_set_header X-Scheme $scheme;
-		 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-	 }
+     location / {
+         proxy_pass_header Server;
+         proxy_pass {{ proxy_info.proxy_url }};
+         proxy_redirect off;
+         proxy_set_header X-Real-IP $remote_addr;
+         proxy_set_header X-Scheme $scheme;
+         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+     }
 }
 ```
 * 使用简单，使用方配置本机 hosts 即可，为对方域名和代理 IP 映射。 
-3. iptables
+- iptables
 	* 类似局域网共享上网；
 	* 对 iptables 配置有要求；
 	* 目标域名对应的 ip 地址改变，需要更新配置。

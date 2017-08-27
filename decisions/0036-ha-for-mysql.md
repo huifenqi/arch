@@ -1,4 +1,4 @@
-# 36. HA for MySQL
+# 36. 关于 MySQL 高可用
 
 Date: 2017-06-06
 

@@ -42,16 +42,17 @@ Those all come from my short experience, so please read by your own risk.
 31. [Capacity evaluation - Memory][27];
 32. [HA for TCP long connection][28];
 33. [Capacity evaluation - MySQL][29];
-34. [DNS notes][30];
-35. [Disaster recovery][31];
-36. [HA for MySQL][32];
-37. [Use proxy for white list][33];
-38. [Data masking][34];
-39. [Key Management][35];
+34. [DNS 笔记][30];
+35. [关于灾难恢复][31];
+36. [关于 MySQL 高可用][32];
+37. [通过代理解决白名单问题][33];
+38. [数据脱敏][34];
+39. [秘钥管理][35];
 40. [Agile - Daily standup meeting][36];
-41. [The summary of MySQL to RDS][37];
+41. [MySQL 迁移 RDS 总结][37];
 42. [Agile - Retrospective meeting][38];
-43. [Message queue with filter][39];
+43. [支持过滤的消息队列][39];
+44. [泛域名解析][40]；
 40. code review;
 40. Knowledge sharing;
 41. Organize meetup as Company;
@@ -96,3 +97,4 @@ Those all come from my short experience, so please read by your own risk.
 [37]:	decisions/0041-the-summary-of-mysql-to-rds.md
 [38]:	decisions/0042-agile-retrospective-meeting.md
 [39]:	decisions/0043-message-queue-with-filter.md
+[40]:	decisions/0044-wildcard-subdomain-resolution.md
