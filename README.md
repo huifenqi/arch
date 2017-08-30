@@ -16,7 +16,7 @@ Those all come from my short experience, so please read by your own risk.
 5. [Replace wechat mail sms with <del>BearyChat</del> Slack][5];
 6. [Replace svn with git][6];
 7. [使用 PassPack 进行密码管理][7];
-8. [Use bastion host to enhance our server security][8];
+8. [使用堡垒机加强服务器安全][8];
 9. [Make django project with the same structure][9];
 10. [Git basics and style guide][10];
 11. [Apply Github workflow to our team][11];

@@ -1,4 +1,4 @@
-# 8. Use bastion host to enhance our server security
+# 8. 使用堡垒机加强服务器安全
 
 Date: 08/04/2017
 
@@ -8,17 +8,14 @@ Accepted
 
 ## Context
 
-1. 上篇文章写了为了禁止外网暴力破解，我们将用户名、密码登录方式改为了 ssh key 登录；
+1. 旧文写了为了禁止外网暴力破解，我们将用户名、密码登录方式改为了 ssh key 登录；
 2. 为了管理方便，当时只区分了生产 key 和测试 key，内部大家共用 key, 并且有 sudo 权限，导致存在内部风险，而针对每个人手动生成 ssh key 又会有管理上的问题；
-3. 当前成员行为无法区分，有成员在系统上执行了 vim 大文件操作导致系统负载急剧升高，也有成员将系统配置改动导致其他成员命令执行存在问题，当然也会存在数据安全上的问题；
+3. 每个人需要对所有机器配置 ssh config，使用不方便；
+4. 当前成员行为无法区分，有成员在系统上执行了 vim 大文件操作导致系统负载急剧升高，也有成员将系统配置改动导致其他项目运行出现问题，当然也存在数据安全上的问题。
 
-未使用堡垒机：
+未使用堡垒机时：
 
 ![][image-1]
-
-使用堡垒机后：
-
-![][image-2]
 
 ## Decision
 
@@ -49,5 +46,4 @@ Jumpserver v0.4.0 新版本预览 [https://github.com/jumpserver/jumpserver/issu
 [4]:	https://github.com/jumpserver/jumpserver/issues/350
 
 [image-1]:	files/without-bastion.png
-[image-2]:	files/with-bastion.png
 [image-3]:	files/bastion.png
