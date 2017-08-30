@@ -1,4 +1,4 @@
-# 2. Manage passwords in a team
+# 2. 团队中的密码管理
 
 Date: 30/03/2017
 
@@ -7,6 +7,8 @@ Date: 30/03/2017
 Accepted
 
 ## Context
+
+![][image-1]
 
 我们工作中使用的密码有 50 + 左右，其中包括
 服务器，数据库，测试账号，第三方服务（阿里云，Dnspod，邮箱，等）
@@ -46,3 +48,5 @@ PassPack(功能简单，小众，不支持附件，费用 144 USD / 80 users)
 3. 需要可存储附件（比如，ssh 公私钥）。
 
 [1]:	https://medium.com/altcademy/how-to-manage-passwords-in-a-team-3ed010bc3ccf
+
+[image-1]:	http://v.youku.com/v_show/id_XMjk5ODQ3NzA3Mg==.html

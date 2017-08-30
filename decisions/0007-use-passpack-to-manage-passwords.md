@@ -1,4 +1,4 @@
-# 7. Use PassPack to manage passwords
+# 7. 使用 PassPack 进行密码管理
 
 Date: 07/04/2017
 

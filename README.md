@@ -10,12 +10,12 @@ Target: FinTech
 Those all come from my short experience, so please read by your own risk.
 
 1. [Record architecture decisions][1];
-2. [Manage passwords in a team][2];
+2. [团队中的密码管理][2];
 3. [Use ssh key instead of password][3];
 4. [Replace CentOS with ubuntu][4];
 5. [Replace wechat mail sms with <del>BearyChat</del> Slack][5];
 6. [Replace svn with git][6];
-7. [Use PassPack to manage passwords][7];
+7. [使用 PassPack 进行密码管理][7];
 8. [Use bastion host to enhance our server security][8];
 9. [Make django project with the same structure][9];
 10. [Git basics and style guide][10];
