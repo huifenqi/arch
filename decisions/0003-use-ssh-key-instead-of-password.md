@@ -1,4 +1,4 @@
-# 3. Use ssh key instead of password
+# 3. 使用 ssh key 替换用户名密码方式登录
 
 Date: 30/03/2017
 

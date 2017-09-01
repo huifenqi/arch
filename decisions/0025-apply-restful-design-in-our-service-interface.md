@@ -1,4 +1,4 @@
-# 25. Apply RESTful design in our service interface
+# 25. 按 RESTful 风格设计更新服务接口
 
 Date: 04/05/2017
 
@@ -50,9 +50,9 @@ Accepted
 10. 确保你的 GET，PUT，DELETE 请求是[幂等的][1]，这些请求多次操作不应该有副作用。
 11. PUT、POST、PATCH 请求参数通过 `application/json` 传递；
 12. 正确返回格式：
-* 单个资源：{field1: value1, …}
-* 资源集合：[{field1: value1, …}]
-* 资源集合（带分页）：
+	* 单个资源：{field1: value1, …}
+	* 资源集合：[{field1: value1, …}]
+	* 资源集合（带分页）：
 ```json
 {
  "count": 0,
@@ -62,7 +62,7 @@ Accepted
 }
 ```
 13. 错误返回格式：
-* 非特定字段错误
+	* 非特定字段错误
 ```json 
 {
  "non_field_errors": [

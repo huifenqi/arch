@@ -1,4 +1,4 @@
-# 4. Replace CentOS with ubuntu
+# 4. Ubuntu vs CentOS
 
 Date: 30/03/2017
 

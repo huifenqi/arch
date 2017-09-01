@@ -1,4 +1,4 @@
-# 10. Git basics and style guide
+# 10. Git 基础及风格指南
 
 Date: 11/04/2017
 

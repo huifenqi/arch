@@ -1,4 +1,4 @@
-# 21. Split redis with business and move redis to aliyun kvstore
+# 21. Redis 使用按业务分离并上云
 
 Date: 26/04/2017
 

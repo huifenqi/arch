@@ -1,4 +1,4 @@
-# 9. Make django project with the same structure
+# 9. 结构化 Django 项目
 
 Date: 10/04/2017
 

@@ -1,4 +1,4 @@
-# 20. Log management
+# 20. 日志管理
 
 Date: 24/04/2017
 

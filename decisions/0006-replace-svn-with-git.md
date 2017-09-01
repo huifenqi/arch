@@ -1,4 +1,4 @@
-# 6. Replace svn with git
+# 6. 使用 Git 替换 SVN
 
 Date: 06/04/2017
 
