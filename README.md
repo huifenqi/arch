@@ -30,18 +30,18 @@ Those all come from my short experience, so please read by your own risk.
 19. [Server request and upgrade: capacity evaluation][16];
 20. [Log management][17];
 21. [Split redis with business and move redis to aliyun kvstore][18];
-22. [Anti DDOS and HA][19];
-23. [Application performance monitoring][20];
-24. [Exception and realtime error tracking][21];
+22. [防 DDOS 攻击][19];
+23. [ 应用性能监控 ][20];
+24. [ 实时错误跟踪 ][21];
 25. [Apply RESTful design in our service interface][22];
 26. [Move files to independent machine and aliyun OSS ][23];
 27. [Message queue][24];
 28. What should we do when we setup a new server;
-29. [Switch hosts][25];
-30. [Capacity evaluation - Storage][26];
-31. [Capacity evaluation - Memory][27];
-32. [HA for TCP long connection][28];
-33. [Capacity evaluation - MySQL][29];
+29. [ 本地 hosts 管理 ][25];
+30. [ 容量评估 - 存储 ][26];
+31. [ 容量评估 - 内存 ][27];
+32. [ TCP 长连接高可用 ][28];
+33. [ 容量评估 - MySQL ][29];
 34. [DNS 笔记][30];
 35. [关于灾难恢复][31];
 36. [关于 MySQL 高可用][32];
@@ -76,7 +76,7 @@ Those all come from my short experience, so please read by your own risk.
 [16]:	decisions/0019-server-request-and-upgrade-capacity-evaluation.md
 [17]:	decisions/0020-log-management.md
 [18]:	decisions/0021-split-redis-with-business-and-move-redis-to-aliyun-kvstore.md
-[19]:	decisions/0022-anti-ddos-and-ha.md
+[19]:	decisions/0022-anti-ddos.md
 [20]:	decisions/0023-application-performance-monitoring.md
 [21]:	decisions/0024-exception-and-realtime-error-tracking.md
 [22]:	decisions/0025-apply-restful-design-in-our-service-interface.md

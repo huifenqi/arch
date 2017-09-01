@@ -1,4 +1,4 @@
-# 24. Exception and realtime error tracking
+# 24. 实时错误跟踪
 
 Date: 28/04/2017
 

@@ -1,4 +1,4 @@
-# 29. Switch hosts
+# 29. 本地 hosts 管理
 
 Date: 18/05/2017
 

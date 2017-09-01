@@ -1,4 +1,4 @@
-# 32. HA for TCP long connection
+# 32. TCP 长连接高可用
 
 Date: 2017-05-25
 

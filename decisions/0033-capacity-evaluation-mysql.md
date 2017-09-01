@@ -1,4 +1,4 @@
-# 33. Capacity evaluation - MySQL
+# 33. 容量评估 - MySQL
 
 Date: 2017-05-25
 

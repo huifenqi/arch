@@ -1,4 +1,4 @@
-# 22. Anti DDOS and HA
+# 22. 防 DDOS 攻击
 
 Date: 28/04/2017
 
