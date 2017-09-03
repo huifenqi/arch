@@ -13,7 +13,7 @@ Those all come from my short experience, so please read by your own risk.
 2. [团队中的密码管理][2];
 3. [使用 ssh key 替换用户名密码方式登录][3];
 4. [Ubuntu vs CentOS][4];
-5. [Replace wechat mail sms with <del>BearyChat</del> Slack][5];
+5. [使用 <del>BearyChat</del> Slack 替代微信、邮件和短信][5];
 6. [使用 Git 替换 SVN][6];
 7. [使用 PassPack 进行密码管理][7];
 8. [使用堡垒机加强服务器安全][8];
@@ -24,7 +24,7 @@ Those all come from my short experience, so please read by your own risk.
 13. [The sense of Done][13];
 14. How to restart a server;
 15. Case: How to find the root reason of high load;
-16. [Post mortem report][14];
+16. [故障记录报告][14];
 17. Incident classify and recovery;
 18. [iOS 持续发布][15];
 19. [服务器申请与升级 - 容量评估][16];
