@@ -1,4 +1,4 @@
-# 5. Replace wechat mail sms with slack
+# 5. 使用 Slack 替代微信、邮件和短信
 
 Date: 31/03/2017
 
