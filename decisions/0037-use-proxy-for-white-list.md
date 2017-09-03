@@ -57,6 +57,12 @@ server {
 	* 对 iptables 配置有要求；
 	* 目标域名对应的 ip 地址改变，需要更新配置。
 
+最终我们通过 aliyun slb 的4层负载接两台部署了 ss5 的机器提供高可用的代理服务
+
+* 4层（TCP协议）服务中，当前不支持添加进后端云服务器池的ECS既作为Real Server，又作为客户端向所在的负载均衡实例发送请求。
+* ss5 启动于内网地址即可
+* ss5 配置需关注 AUTHENTICATION 和 AUTHORIZATION
+
 ## Consequences
 
 Refs:
@@ -64,10 +70,12 @@ Refs:
 1. 云服务器 ECS Linux 系统通过 Squid 配置实现代理上网 [https://help.aliyun.com/knowledge\_detail/41342.html][1]
 2. 正向代理与反向代理的区别 [http://www.jianshu.com/p/208c02c9dd1d][2]
 3. 设置 iptables 使用linux做代理服务器 [https://www.l68.net/493.html][3]
+4. SS5 [http://ss5.sourceforge.net/project.htm][4]
 
 [1]:	https://help.aliyun.com/knowledge_detail/41342.html
 [2]:	http://www.jianshu.com/p/208c02c9dd1d
 [3]:	https://www.l68.net/493.html
+[4]:	http://ss5.sourceforge.net/project.htm
 
 [image-1]:	files/proxy.jpg
 [image-2]:	files/reverse-proxy.jpg
