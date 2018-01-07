@@ -58,8 +58,12 @@ After 5 sharings, we find some things need to improve.
 * Everyone should write the topics and vote;
 * Choose one people recording discussions we talked and write in wiki later.
 
+![][image-1]
+
 Refs:
 
 * [http://leancoffee.org/][1]
 
 [1]:	http://leancoffee.org/
+
+[image-1]:	files/leancoffee.png
