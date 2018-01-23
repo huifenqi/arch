@@ -52,9 +52,10 @@ Those all come from my short experience, so please read by your own risk.
 41. [MySQL 迁移 RDS 总结][37];
 42. [Agile - Retrospective meeting][38];
 43. [支持过滤的消息队列][39];
-44. [泛域名解析][40]；
-45. [Python 自建库的复用][41]；
+44. [泛域名解析][40];
+45. [Python 自建库的复用][41];
 46. [Knowledge sharing][42];
+47. [渠道统计][43];
 1. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
@@ -99,3 +100,4 @@ Those all come from my short experience, so please read by your own risk.
 [40]:	decisions/0044-wildcard-subdomain-resolution.md
 [41]:	decisions/0045-reuse-python-custom-libs.md
 [42]:	decisions/0046-knowledge-sharing.md
+[43]:	decisions/0047-channel-tracking.md
