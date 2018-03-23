@@ -23,16 +23,11 @@ Accepted
 
 结构图：
 
-![][image-3]
+![][image-2]
 
-Refs:
+经过多个堡垒机项目的调研，我们最终选择了 [https://github.com/jumpserver/jumpserver][1]，源于使用人数多，并且项目活跃度高。
 
-* [https://skyportblog.com/2015/08/27/the-jump-boxjump-server-is-not-dead-it-is-more-necessary-than-ever/][1]
-* [https://www.quora.com/What-is-the-difference-between-a-bastion-host-and-a-VPN-host][2]
-
-经过多个堡垒机项目的调研，我们最终选择了 [https://github.com/jumpserver/jumpserver][3]，源于使用人数多，并且项目活跃度高。
-
-Jumpserver v0.4.0 新版本预览 [https://github.com/jumpserver/jumpserver/issues/350][4]
+Jumpserver v0.4.0 新版本预览 [https://github.com/jumpserver/jumpserver/issues/350][2]
 
 ## Consequences
 
@@ -40,10 +35,17 @@ Jumpserver v0.4.0 新版本预览 [https://github.com/jumpserver/jumpserver/issu
 * 文件下载不方便
 * 内网之间文件同步不方便
 
-[1]:	https://skyportblog.com/2015/08/27/the-jump-boxjump-server-is-not-dead-it-is-more-necessary-than-ever/
-[2]:	https://www.quora.com/What-is-the-difference-between-a-bastion-host-and-a-VPN-host
-[3]:	https://github.com/jumpserver/jumpserver
-[4]:	https://github.com/jumpserver/jumpserver/issues/350
+Refs:
+
+* [https://github.com/huifenqi/arch/blob/master/decisions/0003-use-ssh-key-instead-of-password.md][3]
+* [https://skyportblog.com/2015/08/27/the-jump-boxjump-server-is-not-dead-it-is-more-necessary-than-ever/][4]
+* [https://www.quora.com/What-is-the-difference-between-a-bastion-host-and-a-VPN-host][5]
+
+[1]:	https://github.com/jumpserver/jumpserver
+[2]:	https://github.com/jumpserver/jumpserver/issues/350
+[3]:	https://github.com/huifenqi/arch/blob/master/decisions/0003-use-ssh-key-instead-of-password.md
+[4]:	https://skyportblog.com/2015/08/27/the-jump-boxjump-server-is-not-dead-it-is-more-necessary-than-ever/
+[5]:	https://www.quora.com/What-is-the-difference-between-a-bastion-host-and-a-VPN-host
 
 [image-1]:	files/without-bastion.png
-[image-3]:	files/bastion.png
+[image-2]:	files/bastion.png

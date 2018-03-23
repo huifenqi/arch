@@ -14,7 +14,7 @@ Those all come from my short experience, so please read by your own risk.
 3. [使用 ssh key 替换用户名密码方式登录][3];
 4. [Ubuntu vs CentOS][4];
 5. [使用 <del>BearyChat</del> Slack 替代微信、邮件和短信][5];
-6. [使用 Git 替换 SVN][6];
+6. [SVN 迁移至 Git][6];
 7. [使用 PassPack 进行密码管理][7];
 8. [使用堡垒机加强服务器安全][8];
 9. [结构化 Django 项目][9];
