@@ -56,6 +56,8 @@ Those all come from my short experience, so please read by your own risk.
 45. [Python 自建库的复用][41];
 46. [Knowledge sharing][42];
 47. [渠道统计][43];
+48. [Template Generator][44];
+49. [全站 https][45];
 1. TBD.
 
 [1]:	decisions/0001-record-architecture-decisions.md
@@ -101,3 +103,5 @@ Those all come from my short experience, so please read by your own risk.
 [41]:	decisions/0045-reuse-python-custom-libs.md
 [42]:	decisions/0046-knowledge-sharing.md
 [43]:	decisions/0047-channel-tracking.md
+[44]:	decisions/0048-template-generator.md
+[45]:	decisions/0049-moving-your-website-to-https.md
